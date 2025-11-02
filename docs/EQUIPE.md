@@ -4,9 +4,9 @@ Este projeto foi desenvolvido por:
 
 ## Responsável pelo Projeto
 
-| Nome | Função Principal | Contatos |
+| Nome | Função Principal | Contato |
 | :--- | :--- | :--- |
-| **Manoella Moura** | Desenvolvedora Líder / Arquiteta de Sistemas | **GitHub:** [https://github.com/SEU_USER_AQUI](https://github.com/SEU_USER_AQUI) **LinkedIn:** [https://www.linkedin.com/in/SEU_LINK_AQUI](https://www.linkedin.com/in/SEU_LINK_AQUI) |
+| **Manoella Moura** | Desenvolvedora Líder / Arquiteta de Sistemas | **GitHub:** [https://github.com/manumouran](https://github.com/manumouran)
 
 ### Contribuições e Responsabilidades
 
