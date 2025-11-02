@@ -10,31 +10,31 @@ A gestão de uma comunidade do GTA RP é complexa: a staff precisa organizar inf
 
 O backlog completo do produto, contendo as épicas e histórias de usuário, pode ser acessado em:
 
-> **Backlog do Produto** [docs/BACKLOG.md](docs/BACKLOG.md)
+> **Backlog do Produto** [Backlog](docs/BACKLOG.md)
 
 ### Cronograma de Evolução do Projeto
 
 O cronograma representa a macro-visão do projeto.
 
-> **Cronograma do Projeto** [docs/CRONOGRAMA.md](docs/CRONOGRAMA.md)
+> **Cronograma do Projeto** [Cronograma](docs/CRONOGRAMA.md)
 
 ### Tecnologias Utilizadas
 
 Detalhes completos sobre todas as tecnologias, frameworks e ferramentas utilizadas no projeto:
 
-> **Tecnologias do Projeto** [docs/TECNOLOGIAS.md](docs/TECNOLOGIAS.md)
+> **Tecnologias do Projeto** [Tecnologias](docs/TECNOLOGIAS.md)
 
 ### Estrutura do Projeto
 
 Descrição detalhada da estrutura de pastas e arquivos do projeto:
 
-> **Estrutura do Projeto** [docs/ESTRUTURA_PROJETO.md](docs/ESTRUTURA_PROJETO.md)
+> **Estrutura do Projeto** [Estrutura do Projeto](docs/ESTRUTURA_PROJETO.md)
 
 ### Como Executar
 
 Instruções passo a passo para configurar e executar o projeto localmente:
 
-> **Como Executar o Projeto** [docs/COMO_EXECUTAR.md](docs/COMO_EXECUTAR.md)
+> **Como Executar o Projeto** [Como executar](docs/COMO_EXECUTAR.md)
 
 ### Checklists de Qualidade (Ágil)
 
