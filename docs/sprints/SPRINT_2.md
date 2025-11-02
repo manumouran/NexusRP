@@ -1,6 +1,6 @@
 # Documentação - Sprint 2
 
-**Período:** 17/09/2025 a 01/10/2025
+**Período:** 17/09/2025 a 30/09/2025
 **Meta da Sprint:** Implementar a busca rápida de jogadores e estabelecer a infraestrutura para o registro automático de denúncias via Discord.
 
 ---
