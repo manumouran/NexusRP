@@ -1,73 +1,32 @@
-# Sprints do Projeto NexusRP (Gerenciamento Urbano)
+# Relatório de Sprint 3: Controle Disciplinar e Gestão de Acesso
 
-Este documento contém o histórico de todas as sprints realizadas no projeto NexusRP, incluindo links para a documentação detalhada de cada ciclo de desenvolvimento.
-
----
-
-## 1. Histórico de Sprints
-
-| Sprint | Período | Meta da Sprint | Documentação | Status |
-| :---: | :---: | :--- | :---: | :---: |
-| **Sprint 1** | 02/09/25 a 16/09/25 | Fundação, Arquitetura e Autenticação da Staff. | [Documentação Sprint 1](./SPRINT_1.md) | ✅ Concluída |
-| **Sprint 2** | 17/09/25 a 01/10/25 | Prontuário de Cidadãos e Integração com Discord (Denúncias). | [Documentação Sprint 2](./SPRINT_2.md) | ✅ Concluída |
-| **Sprint 3** | 02/10/25 a 16/10/25 | Finalização do Controle Disciplinar e Gestão de Permissões. | [Documentação Sprint 3](./SPRINT_3.md) | ✅ Concluída |
+| Período | 02/10/2025 a 16/10/2025 |
+| :--- | :--- |
+| **Meta da Sprint** | Finalizar o sistema de Controle Disciplinar, permitindo a aplicação de punições, e implementar a gestão de permissões para Administradores. |
+| **Status Final** | Concluída com sucesso. Funcionalidades centrais de moderação (Punição e Histórico) estão prontas. |
 
 ---
 
-## 2. Resumo das Entregas
+## 1. Definições de Qualidade Aplicadas
 
-### Sprint 1 - Resumo
+### DoR (Definição de Pronto)
+* **API Definida:** O endpoint de `POST /api/punicoes` foi definido e revisado para garantir a consistência dos dados.
+* **Modelo Atualizado:** A entidade `Punicao` no `EF Core` foi finalizada para suportar campos como `staff_id`, `justificativa` e `duracao`.
 
-**Período:** 02/09/2025 a 16/09/2025
-
-**Meta da Sprint:** Estabelecer a arquitetura C# / SQL Server e garantir o acesso seguro da Staff ao painel.
-
-**Histórias Implementadas:**
-* NEX-01: Login seguro da Staff.
-* ARC-03: Modelagem do Diagrama de Classe.
-* NEX-03: Fluxo de recuperação de senha.
-
-**Resultado:** Meta atingida com sucesso. Base de segurança e arquitetura para as próximas Sprints estabelecida.
-
-[📄 Ver documentação completa da Sprint 1](./SPRINT_1.md)
+### DoD (Definição de Concluído)
+* **Regra de Negócio Implementada:** A regra de obrigatoriedade de **Justificativa** ao aplicar uma punição foi codificada na camada de *Service*.
+* **Revisão de Código:** O código da Gestão de Permissões (NEX-02) foi revisado com foco em segurança (autorização baseada em *Roles*).
+* **Documentação:** O manual de usuário foi atualizado com o passo a passo de como aplicar punições.
 
 ---
 
-### Sprint 2 - Resumo
+## 2. Histórico de Entregas
 
-**Período:** 17/09/2025 a 01/10/2025
-
-**Meta da Sprint:** Implementar a busca rápida de jogadores e estabelecer a infraestrutura para o registro de denúncias via Discord.
-
-**Histórias Implementadas:**
-* NEX-04: Busca rápida de cidadão por Nome/ID.
-* NEX-05: Desenvolvimento do Prontuário Completo.
-* NEX-08: Integração com a Discord API para denúncias.
-
-**Resultado:** Meta atingida com sucesso. Funcionalidades essenciais de monitoramento e integração concluídas.
-
-[📄 Ver documentação completa da Sprint 2](./SPRINT_2.md)
+| ID | História de Usuário/Tarefa | Status | Comentários |
+| :--- | :--- | :--- | :--- |
+| **NEX-09** | Painel para análise e aplicação de punições (Banimento, Mute, Jail). | **Concluído** | Interface de aplicação de punição integrada à tela de prontuário. |
+| **NEX-10** | Registro da punição no **Histórico Disciplinar** do jogador em tempo real. | **Concluído** | Punições aplicadas são salvas e exibidas no prontuário. |
+| **NEX-02** | Gestão de permissões, permitindo que Administradores concedam/revoguem acessos de Staff. | **Concluído** | Implementação de níveis de acesso (Admin/Moderador). |
+| **ARC-04** | Elaboração do Diagrama de Sequência para o fluxo de "Aplicação de Punição". | **Concluído** | Diagrama finalizado e anexado à pasta `diagrams/`. |
 
 ---
-
-### Sprint 3 - Resumo
-
-**Período:** 02/10/2025 a 16/10/2025
-
-**Meta da Sprint:** Finalizar o controle disciplinar (punições) e entregar o Dashboard administrativo com relatórios iniciais.
-
-**Histórias Implementadas:**
-* NEX-09: Painel para análise e aplicação de punições.
-* NEX-10: Registro de punições no histórico disciplinar.
-* NEX-02: Gestão de permissões para Administradores.
-
-**Resultado:** Meta atingida com sucesso. O sistema de controle disciplinar está completo e funcional, pronto para homologação.
-
-[📄 Ver documentação completa da Sprint 3](./SPRINT_3.md)
-
----
-
-## 3. Observações
-
-* Cada sprint teve duração de aproximadamente 2 semanas, seguindo o cronograma estabelecido.
-* A documentação detalhada (DoR/DoD, Entregas, Lições Aprendidas) de cada sprint está disponível nos arquivos individuais na pasta `sprints/`.
