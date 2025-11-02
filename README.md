@@ -24,12 +24,6 @@ Detalhes completos sobre todas as tecnologias, frameworks e ferramentas utilizad
 
 > **Tecnologias do Projeto** [Tecnologias](docs/TECNOLOGIAS.md)
 
-### Estrutura do Projeto
-
-Descrição detalhada da estrutura de pastas e arquivos do projeto:
-
-> **Estrutura do Projeto** [Estrutura do Projeto](docs/ESTRUTURA_PROJETO.md)
-
 ### Como Executar
 
 Instruções passo a passo para configurar e executar o projeto localmente:
