@@ -34,16 +34,16 @@ Instruções passo a passo para configurar e executar o projeto localmente:
 
 Critérios de qualidade e definições de pronto aplicados em cada etapa:
 
-* **Definition of Ready (DoR) e Definition of Done (DoD):** [docs/CHECKLIST_DOR_DOD.md](docs/CHECKLIST_DOR_DOD.md)
+* **Definition of Ready (DoR) e Definition of Done (DoD):** [Checklist DOR DOD](docs/CHECKLIST_DOR_DOD.md)
 
 ### Equipe
 
 Informações detalhadas sobre a equipe do projeto:
 
-> **Equipe do Projeto** [docs/EQUIPE.md](docs/EQUIPE.md)
+> **Equipe do Projeto** [Equipe](docs/EQUIPE.md)
 
 ### Manual do Usuário
 
 Guia completo de uso da plataforma para a Staff (Como aplicar punições, criar relatórios, etc.):
 
-> **Manual do Usuário** [docs/MANUAL_USUARIO.md](docs/MANUAL_USUARIO.md)
+> **Manual do Usuário** [Manual](docs/MANUAL_USUARIO.md)
