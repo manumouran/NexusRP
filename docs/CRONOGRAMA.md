@@ -1,4 +1,4 @@
-# CRONOGRAMA.md - Planejamento de Sprints NexusRP
+# Cronograma - Planejamento de Sprints NexusRP
 
 Este documento detalha as metas e as principais entregas planejadas para cada Sprint do projeto, utilizando as tarefas definidas no Backlog do Produto.
 
