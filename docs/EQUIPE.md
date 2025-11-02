@@ -1,4 +1,4 @@
-# EQUIPE.md - NexusRP
+# EQUIPE - NexusRP
 
 Este projeto foi desenvolvido por:
 
