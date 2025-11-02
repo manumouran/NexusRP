@@ -9,10 +9,10 @@ Este documento contém o histórico de todas as sprints realizadas no projeto Ne
 | Sprint | Período | Meta da Sprint | Documentação | Status |
 | :---: | :---: | :--- | :---: | :---: |
 | **Sprint 1** | 02/09/25 a 16/09/25 | Fundação, Arquitetura e Autenticação da Staff. | [Documentação Sprint 1](./SPRINT_1.md) | ✅ Concluída |
-| **Sprint 2** | 17/09/25 a 01/10/25 | Prontuário de Cidadãos e Integração com Discord (Denúncias). | [Documentação Sprint 2](./SPRINT_2.md) | ✅ Concluída |
-| **Sprint 3** | 02/10/25 a 16/10/25 | Finalização do Controle Disciplinar e Gestão de Permissões. | [Documentação Sprint 3](./SPRINT_3.md) | ✅ Concluída |
-| **Sprint 4** | 17/10/25 a 31/10/25 | Auditoria e Relatórios Avançados para a Liderança. | [Documentação Sprint 4](./SPRINT_4.md) | ✅ Concluída |
-| **Sprint 5** | 01/11/25 a 15/11/25 | Otimização, Alertas e Homologação Final. | [Documentação Sprint 5](./SPRINT_5.md) | ✅ Concluída |
+| **Sprint 2** | 17/09/25 a 30/09/25 | Prontuário de Cidadãos e Integração com Discord (Denúncias). | [Documentação Sprint 2](./SPRINT_2.md) | ✅ Concluída |
+| **Sprint 3** | 01/10/25 a 14/10/25 | Finalização do Controle Disciplinar e Gestão de Permissões. | [Documentação Sprint 3](./SPRINT_3.md) | ✅ Concluída |
+| **Sprint 4** | 15/10/25 a 29/10/25 | Auditoria e Relatórios Avançados para a Liderança. | [Documentação Sprint 4](./SPRINT_4.md) | ✅ Concluída |
+| **Sprint 5** | **30/10/25 a 02/11/25** | Otimização, Alertas e Homologação Final. | [Documentação Sprint 5](./SPRINT_5.md) | ✅ Concluída |
 
 ---
 
