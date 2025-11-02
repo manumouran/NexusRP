@@ -1,32 +1,54 @@
-# Relatório de Sprint 3: Controle Disciplinar e Gestão de Acesso
+# Sprints do Projeto NexusRP (Gerenciamento Urbano)
 
-| Período | 02/10/2025 a 16/10/2025 |
-| :--- | :--- |
-| **Meta da Sprint** | Finalizar o sistema de Controle Disciplinar, permitindo a aplicação de punições, e implementar a gestão de permissões para Administradores. |
-| **Status Final** | Concluída com sucesso. Funcionalidades centrais de moderação (Punição e Histórico) estão prontas. |
+Este documento contém o histórico de todas as sprints realizadas no projeto NexusRP, incluindo links para a documentação detalhada de cada ciclo de desenvolvimento.
 
 ---
 
-## 1. Definições de Qualidade Aplicadas
+## 1. Histórico de Sprints
 
-### DoR (Definição de Pronto)
-* **API Definida:** O endpoint de `POST /api/punicoes` foi definido e revisado para garantir a consistência dos dados.
-* **Modelo Atualizado:** A entidade `Punicao` no `EF Core` foi finalizada para suportar campos como `staff_id`, `justificativa` e `duracao`.
-
-### DoD (Definição de Concluído)
-* **Regra de Negócio Implementada:** A regra de obrigatoriedade de **Justificativa** ao aplicar uma punição foi codificada na camada de *Service*.
-* **Revisão de Código:** O código da Gestão de Permissões (NEX-02) foi revisado com foco em segurança (autorização baseada em *Roles*).
-* **Documentação:** O manual de usuário foi atualizado com o passo a passo de como aplicar punições.
+| Sprint | Período | Meta da Sprint | Documentação | Status |
+| :---: | :---: | :--- | :---: | :---: |
+| **Sprint 1** | 02/09/25 a 16/09/25 | Fundação, Arquitetura e Autenticação da Staff. | [Documentação Sprint 1](./SPRINT_1.md) | ✅ Concluída |
+| **Sprint 2** | 17/09/25 a 01/10/25 | Prontuário de Cidadãos e Integração com Discord (Denúncias). | [Documentação Sprint 2](./SPRINT_2.md) | ✅ Concluída |
+| **Sprint 3** | 02/10/25 a 16/10/25 | Finalização do Controle Disciplinar e Gestão de Permissões. | [Documentação Sprint 3](./SPRINT_3.md) | ✅ Concluída |
+| **Sprint 4** | 17/10/25 a 31/10/25 | Auditoria e Relatórios Avançados para a Liderança. | [Documentação Sprint 4](./SPRINT_4.md) | ✅ Concluída |
+| **Sprint 5** | 01/11/25 a 15/11/25 | Otimização, Alertas e Homologação Final. | [Documentação Sprint 5](./SPRINT_5.md) | ✅ Concluída |
 
 ---
 
-## 2. Histórico de Entregas
+## 2. Resumo das Entregas
 
-| ID | História de Usuário/Tarefa | Status | Comentários |
-| :--- | :--- | :--- | :--- |
-| **NEX-09** | Painel para análise e aplicação de punições (Banimento, Mute, Jail). | **Concluído** | Interface de aplicação de punição integrada à tela de prontuário. |
-| **NEX-10** | Registro da punição no **Histórico Disciplinar** do jogador em tempo real. | **Concluído** | Punições aplicadas são salvas e exibidas no prontuário. |
-| **NEX-02** | Gestão de permissões, permitindo que Administradores concedam/revoguem acessos de Staff. | **Concluído** | Implementação de níveis de acesso (Admin/Moderador). |
-| **ARC-04** | Elaboração do Diagrama de Sequência para o fluxo de "Aplicação de Punição". | **Concluído** | Diagrama finalizado e anexado à pasta `diagrams/`. |
+### Sprint 1 - Resumo
+* **Meta:** Estabelecer a arquitetura C# / SQL Server e acesso seguro.
+* **Entregas Principais:** Login (NEX-01), Modelagem de Classe (ARC-03), Recuperação de Senha (NEX-03).
+[📄 Ver documentação completa da Sprint 1](./SPRINT_1.md)
+
+---
+
+### Sprint 2 - Resumo
+* **Meta:** Implementar a busca de jogadores e a infraestrutura para o registro de denúncias via Discord.
+* **Entregas Principais:** Busca Rápida (NEX-04), Prontuário Completo (NEX-05), Integração Discord (NEX-08).
+[📄 Ver documentação completa da Sprint 2](./SPRINT_2.md)
+
+---
+
+### Sprint 3 - Resumo
+* **Meta:** Finalizar o sistema de Controle Disciplinar (punições) e a Gestão de Permissões.
+* **Entregas Principais:** Aplicação de Punições (NEX-09), Histórico Disciplinar (NEX-10), Gestão de Permissões (NEX-02).
+[📄 Ver documentação completa da Sprint 3](./SPRINT_3.md)
+
+---
+
+### Sprint 4 - Resumo
+* **Meta:** Implementar ferramentas avançadas de auditoria e relatórios de desempenho.
+* **Entregas Principais:** Relatórios de Desempenho (NEX-11), Histórico de Auditoria (NEX-12), Filtros Avançados (NEX-13).
+[📄 Ver documentação completa da Sprint 4](./SPRINT_4.md)
+
+---
+
+### Sprint 5 - Resumo
+* **Meta:** Otimização de performance, alertas de comunicação e preparação final para o lançamento/homologação.
+* **Entregas Principais:** Alertas de Punição Expirando (NEX-14), Testes de Carga (NEX-15), Documentação Final (NEX-16).
+[📄 Ver documentação completa da Sprint 5](./SPRINT_5.md)
 
 ---
