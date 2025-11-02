@@ -1,86 +1,74 @@
 # NEXUSRP - PLATAFORMA DE GERENCIAMENTO RP
 
-## Descricao do Desafio
+## Descrição do Desafio
 
 A gestão de uma comunidade do GTA RP é complexa: a staff precisa organizar informações sobre **players, denúncias, compras, interações e relatórios**. A dificuldade atual é a **falta de controle e visibilidade centralizada**, o que dificulta monitoramento e decisões. O **NexusRP** resolve isso ao fornecer **painel único**, integração com **Discord** e ferramentas de análise para a staff.
 
 ---
 
-## Backlog de Produto
+## 📑 Documentação do Projeto
+
+Todos os artefatos de engenharia de software e documentação técnica do NexusRP estão centralizados no diretório `/docs`.
+
+| Categoria | Documento | Status |
+| :--- | :--- | :--- |
+| **Planejamento** | [Backlog do Produto](docs/BACKLOG.md) | Concluído |
+| **Planejamento** | [Cronograma Detalhado](docs/CRONOGRAMA.md) | Concluído |
+| **Arquitetura** | [Tecnologias Utilizadas](docs/TECNOLOGIAS.md) | Concluído |
+| **Arquitetura** | [Estrutura do Projeto](docs/ESTRUTURA_PROJETO.md) | Concluído |
+| **Operacional** | [Como Executar o Projeto](docs/COMO_EXECUTAR.md) | Concluído |
+| **Qualidade** | [Definições de Pronto & Concluído (DoR/DoD)](docs/CHECKLIST_DOR_DOD.md) | Concluído |
+| **Operacional** | [Manual do Usuário (Staff)](docs/MANUAL_USUARIO.md) | Concluído |
+| **Pessoal** | [Equipe e Contatos](docs/EQUIPE.md) | Concluído |
+
+---
+
+## Detalhes
+
+### Backlog de Produto
 
 O backlog completo do produto, contendo as épicas e histórias de usuário, pode ser acessado em:
 
-> **Backlog do Produto** [Link para a documentação do Backlog aqui]
+> **Backlog do Produto** [docs/BACKLOG.md](docs/BACKLOG.md)
 
----
+### Cronograma de Evolução do Projeto
 
-## Cronograma de Evolução do Projeto
+O cronograma representa a macro-visão do projeto.
 
-O cronograma representa a macro-visão do projeto. Uma versão detalhada está disponível em:
+> **Cronograma do Projeto** [docs/CRONOGRAMA.md](docs/CRONOGRAMA.md)
 
-> **Cronograma do Projeto** [Link para o Cronograma Visual/Gráfico aqui]
-
----
-
-## Sprints
-
-O histórico completo das sprints, incluindo documentação e validação da staff, pode ser acessado em:
-
-> **Sprints do Projeto** [Link para a pasta/documentação de Sprints aqui]
-
----
-
-## Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 Detalhes completos sobre todas as tecnologias, frameworks e ferramentas utilizadas no projeto:
 
-> **Tecnologias do Projeto** [Link para a documentação de Tecnologias, ou liste aqui: **C#, ASP.NET, MS SQL, Discord API**]
+> **Tecnologias do Projeto** [docs/TECNOLOGIAS.md](docs/TECNOLOGIAS.md)
 
----
+### Estrutura do Projeto
 
-## Estrutura do Projeto
+Descrição detalhada da estrutura de pastas e arquivos do projeto:
 
-Descrição detalhada da estrutura de pastas e arquivos do projeto (Exemplo):
+> **Estrutura do Projeto** [docs/ESTRUTURA_PROJETO.md](docs/ESTRUTURA_PROJETO.md)
 
-> **Estrutura do Projeto** [Link para a documentação da Estrutura ou coloque a árvore aqui]
+### Como Executar
 
----
+Instruções passo a passo para configurar e executar o projeto localmente:
 
-## Como Executar
+> **Como Executar o Projeto** [docs/COMO_EXECUTAR.md](docs/COMO_EXECUTAR.md)
 
-Instruções passo a passo para configurar e executar o projeto localmente (Backend e Frontend):
-
-> **Como Executar o Projeto** [Link para o Guia de Setup, ou liste os comandos essenciais aqui]
-
----
-
-## Link para Pasta de Documentacao
-
-Toda a documentação formal do projeto (DoR, DoD, Manuais) está centralizada na pasta:
-
-> **Documentação Completa** [Link para a pasta `/docs/`]
-
----
-
-## Checklists de Qualidade (Ágil)
+### Checklists de Qualidade (Ágil)
 
 Critérios de qualidade e definições de pronto aplicados em cada etapa:
 
-* **Definition of Ready (DoR) e Definition of Done (DoD):** [Link para a página principal de DoR/DoD]
-* **DoR e DoD Detalhados por Sprint:** [Link para os critérios específicos por ciclo]
+* **Definition of Ready (DoR) e Definition of Done (DoD):** [docs/CHECKLIST_DOR_DOD.md](docs/CHECKLIST_DOR_DOD.md)
 
----
-
-## Equipe
+### Equipe
 
 Informações detalhadas sobre a equipe do projeto:
 
-> **Equipe do Projeto** [Link para a página com os nomes e perfis]
+> **Equipe do Projeto** [docs/EQUIPE.md](docs/EQUIPE.md)
 
----
-
-## Manual do Usuário
+### Manual do Usuário
 
 Guia completo de uso da plataforma para a Staff (Como aplicar punições, criar relatórios, etc.):
 
-> **Manual do Usuário** [Link para o Manual]
+> **Manual do Usuário** [docs/MANUAL_USUARIO.md](docs/MANUAL_USUARIO.md)
