@@ -6,13 +6,13 @@ Este documento é um guia de referência para os membros da Equipe Administrativ
 
 Instruções detalhadas para a instalação de dependências e configuração do banco de dados (SQL Server) estão centralizadas em um documento específico.
 
-* **Para Pré-requisitos e Setup:** Consulte o arquivo **[COMO_EXECUTAR.MD](COMO_EXECUTAR.MD)** para verificar a lista completa de tecnologias necessárias (.NET SDK, SQL Server, etc.).
+* **Para Pré-requisitos e Setup:** Consulte o arquivo **[COMO_EXECUTAR.md](COMO_EXECUTAR.md)** para verificar a lista completa de tecnologias necessárias (.NET SDK, SQL Server, etc.).
 
 ## 2. Como Executar o Projeto
 
 Instruções sobre como iniciar os servidores de Backend (ASP.NET Core API) e Frontend (Painel Web) para rodar a aplicação localmente.
 
-* **Para Execução Local:** Consulte o arquivo **[COMO_EXECUTAR.MD](COMO_EXECUTAR.MD)**, Seções 2 e 3, para obter o passo a passo de inicialização via `dotnet run`.
+* **Para Execução Local:** Consulte o arquivo **[COMO_EXECUTAR.md](COMO_EXECUTAR.md)**, Seções 2 e 3, para obter o passo a passo de inicialização via `dotnet run`.
 
 ## 3. Guia de Funcionalidades (Uso pela Staff)
 
