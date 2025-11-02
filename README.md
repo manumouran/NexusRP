@@ -84,9 +84,3 @@ Informações detalhadas sobre a equipe do projeto:
 Guia completo de uso da plataforma para a Staff (Como aplicar punições, criar relatórios, etc.):
 
 > **Manual do Usuário** [Link para o Manual]
-
----
-
-## Status do Projeto
-
-* **Status Atual:** **Em Desenvolvimento Inicial (Fase 1: Cadastro e Integração)**
