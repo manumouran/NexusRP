@@ -6,23 +6,6 @@ A gestão de uma comunidade do GTA RP é complexa: a staff precisa organizar inf
 
 ---
 
-## 📑 Documentação do Projeto
-
-Todos os artefatos de engenharia de software e documentação técnica do NexusRP estão centralizados no diretório `/docs`.
-
-| Categoria | Documento | Status |
-| :--- | :--- | :--- |
-| **Planejamento** | [Backlog do Produto](docs/BACKLOG.md) | Concluído |
-| **Planejamento** | [Cronograma Detalhado](docs/CRONOGRAMA.md) | Concluído |
-| **Arquitetura** | [Tecnologias Utilizadas](docs/TECNOLOGIAS.md) | Concluído |
-| **Arquitetura** | [Estrutura do Projeto](docs/ESTRUTURA_PROJETO.md) | Concluído |
-| **Operacional** | [Como Executar o Projeto](docs/COMO_EXECUTAR.md) | Concluído |
-| **Qualidade** | [Definições de Pronto & Concluído (DoR/DoD)](docs/CHECKLIST_DOR_DOD.md) | Concluído |
-| **Operacional** | [Manual do Usuário (Staff)](docs/MANUAL_USUARIO.md) | Concluído |
-| **Pessoal** | [Equipe e Contatos](docs/EQUIPE.md) | Concluído |
-
----
-
 ## Detalhes
 
 ### Backlog de Produto
