@@ -6,8 +6,6 @@ A gestão de uma comunidade do GTA RP é complexa: a staff precisa organizar inf
 
 ---
 
-## Detalhes
-
 ### Backlog de Produto
 
 O backlog completo do produto, contendo as épicas e histórias de usuário, pode ser acessado em:
