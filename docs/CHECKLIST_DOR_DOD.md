@@ -1,4 +1,4 @@
-# CHECKLIST_DOR_DOD.md - Definições de Qualidade (DoR & DoD)
+# Checklist de Definições (DoR & DoD)
 
 Este documento estabelece os critérios de qualidade e os processos que governam o ciclo de vida de uma tarefa no projeto NexusRP.
 
