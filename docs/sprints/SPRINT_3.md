@@ -1,6 +1,6 @@
 # Documentação - Sprint 3
 
-**Período:** 02/10/2025 a 16/10/2025
+**Período:** 01/10/2025 a 14/10/2025
 **Meta da Sprint:** Finalizar o sistema de Controle Disciplinar, permitindo a aplicação de punições (Ban/Mute/Jail), e implementar a gestão de permissões para Administradores.
 
 ---
